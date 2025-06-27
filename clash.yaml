@@ -6,7 +6,7 @@ proxies:
 - {name: 🏁RELAY-104.21.21.192-004, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /azumase.ren, tls: true, ws-headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}
 - {name: 🇩🇪DE-45.150.32.13-005, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8}
 - {name: 🇩🇪DE-45.144.54.33-006, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ}
-- {name: 🏁RELAY-172.67.193.50-007, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /horsen, tls: true, ws-headers: {Host: orvps2.horsenma.net}}
+- {name: 🏁RELAY-104.21.20.162-007, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /horsen, tls: true, ws-headers: {Host: orvps2.horsenma.net}}
 - {name: 🏁RELAY-104.21.21.192-008, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /azumase.ren, tls: true, ws-headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}
 - {name: 🇹🇼TW-111.250.98.104-009, server: tw40.453521.xyz, port: 3663, type: trojan, password: a348278e-71ac-499c-8069-28b1af18c372, skip-cert-verify: true}
 - {name: 🏁RELAY-104.21.112.1-010, server: 104.21.112.1, port: 2096, type: vmess, uuid: 3988dfba-e9ee-40ba-a87e-553aee1c5993, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: de01.sh-cloudflare.sbs}}
@@ -30,12 +30,12 @@ proxies:
 - {name: 🇦🇶NOWHERE-0.0.0.0-028, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /634c5c4f9782, tls: true, ws-headers: {Host: centos7}}
 - {name: 🇸🇰SK-156.146.40.194-029, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: 🇨🇳CN-183.236.51.38-030, server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 183.236.51.38}}
-- {name: 🇨🇳CN-157.148.96.89-031, server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: true}
+- {name: 🇨🇳CN-157.148.96.94-031, server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: true}
 - {name: 🇯🇵JP-38.47.96.30-032, server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /lzjjj, tls: true, ws-headers: {Host: th.lzj520hxw.dpdns.org}}
 - {name: 🇰🇷KR-125.141.31.72-033, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: "qwerREWQ@@"}
 - {name: 🇨🇳CN-183.238.50.20-034, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
 - {name: 🇩🇪DE-5.39.249.119-035, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, skip-cert-verify: true, network: grpc, ws-path: vmess-grpc, tls: true, ws-headers: {Host: de.vmess.comnpmjs.com}}
-- {name: 🇭🇰HK-1.65.196.52-036, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
+- {name: 🇭🇰HK-1.65.204.117-036, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
 - {name: 🇨🇳CN-157.148.96.94-037, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: true}
 - {name: 🇨🇳CN-157.148.96.89-038, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
 - {name: 🇸🇬SG-54.169.93.111-039, server: 54.169.93.111, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
@@ -43,13 +43,13 @@ proxies:
 - {name: 🇭🇰HK-121.127.231.200-041, server: 121.127.231.200, port: 995, type: ss, cipher: aes-256-gcm, password: d2bcd45faee2}
 - {name: 🇭🇰HK-43.247.135.170-042, server: 43.247.135.170, port: 46210, type: vmess, uuid: d1eca706-1aae-42d3-bab0-69995d7b023d, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 43.247.135.170}}
 - {name: 🇨🇳CN-120.233.128.98-043, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
-- {name: 🇨🇳CN-183.240.211.96-044, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-044, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇭🇰HK-43.226.17.11-045, server: 43.226.17.11, port: 995, type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
 - {name: 🇯🇵JP-43.206.224.12-046, server: 43.206.224.12, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
 - {name: 🇨🇳CN-203.156.253.12-047, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-111.26.109.79-048, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
 - {name: 🇨🇳CN-163.177.46.167-049, server: nstku8v.ns.p36958.xyz, port: 3551, type: ss, cipher: chacha20-ietf-poly1305, password: zcaarradsfasgfdcxx}
-- {name: 🇨🇳CN-183.240.211.96-050, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-050, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇻🇳VN-103.163.218.2-051, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: 🇺🇸US-38.11.18.221-052, server: 38.11.18.221, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /path/262029062315, tls: true, ws-headers: {Host: www.47720602.xyz}}
 - {name: 🇸🇬SG-54.169.93.111-053, server: 54.169.93.111, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw}
@@ -61,64 +61,64 @@ proxies:
 - {name: 🇯🇵JP-47.74.43.182-059, server: 47.74.43.182, port: 47628, type: vmess, uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.74.43.182}}
 - {name: 🇨🇳CN-163.177.46.167-060, server: nstku8v.ns.p36958.xyz, port: 3551, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6Y2FhcnJhZHNmYXNnZmRjeHg}
 - {name: 🇻🇳VN-103.163.218.2-061, server: 103.163.218.2, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
-- {name: 🇭🇰HK-43.226.17.11-062, server: 43.226.17.11, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fhvehrabivnnp%3Bhost%3Dkr6v1.dashengjs.net%3Btls", type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
-- {name: 🇨🇳CN-183.240.211.96-063, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506212021989-5pgsEe2BPt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
-- {name: 🇭🇰HK-121.127.231.200-064, server: 121.127.231.200, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fmupbpzjvwhcm%3Bhost%3Dhkxwv1-5.dsjsapi.com%3Btls", type: ss, cipher: aes-256-gcm, password: d2bcd45faee2}
-- {name: 🇨🇳CN-183.240.211.96-065, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506212021989-5pgsEe2BPt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-062, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-063, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇭🇰HK-43.226.17.11-064, server: 43.226.17.11, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fhvehrabivnnp%3Bhost%3Dkr6v1.dashengjs.net%3Btls", type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
+- {name: 🇭🇰HK-121.127.231.200-065, server: 121.127.231.200, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fmupbpzjvwhcm%3Bhost%3Dhkxwv1-5.dsjsapi.com%3Btls", type: ss, cipher: aes-256-gcm, password: d2bcd45faee2}
 - {name: 🇭🇰HK-47.76.28.43-066, server: 47.76.28.43, port: 34833, type: vmess, uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.76.28.43}}
 - {name: 🇹🇼TW-118.194.253.15-067, server: 118.194.253.15, port: 5663, type: vmess, uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 118.194.253.15}}
 - {name: 🇯🇵JP-47.74.43.182-068, server: 47.74.43.182, port: 47628, type: vmess, uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.74.43.182}}
 - {name: 🏁RELAY-172.67.79.211-069, server: 172.67.79.211, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.26.13.31-070, server: ipv4.ip.sb, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.79.211-071, server: 172.67.79.211, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.26.7.112-072, server: www.ipchicken.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.67.68.101-072, server: www.ipchicken.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.26.13.31-073, server: ipv4.ip.sb, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.16.229.229-074, server: www.4chan.org, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.228.229-074, server: www.4chan.org, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.128.1-075, server: 104.17.128.1, port: 2096, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.128.1-076, server: 104.17.128.1, port: 2096, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.68.85-077, server: 104.17.68.85, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.142.12-078, server: 104.17.142.12, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.67.174.21-079, server: comicabc.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.21.64.10-079, server: comicabc.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.26.10.222-080, server: iplocation.io, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.67.174.21-081, server: comicabc.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.26.13.54-082, server: time.is, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.187-083, server: dylan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.26.6.37-084, server: www.hugedomains.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.21.64.10-081, server: comicabc.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.67.68.157-082, server: time.is, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.187-083, server: dylan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.7.37-084, server: www.hugedomains.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.181.209-085, server: 172.67.181.209, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.187-086, server: dylan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.187-086, server: dylan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.25.254.4-087, server: 104.25.254.4, port: 2087, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.26.7.89-088, server: dnschecker.org, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.16.143.237-089, server: www.udemy.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.64.35.188-090, server: huxley.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.155-091, server: decker.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.6.89-088, server: dnschecker.org, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.16.142.237-089, server: www.udemy.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.188-090, server: huxley.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.155-091, server: decker.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🇦🇶NOWHERE-0.0.0.0-092, server: 103.160.204.59, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.155-093, server: decker.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.155-093, server: decker.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.64.146.66-094, server: www.wto.org, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.64.35.207-095, server: kyree.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.64.35.192-096, server: craig.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.64.35.188-097, server: huxley.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.192-096, server: craig.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.188-097, server: huxley.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.120.0-098, server: 172.67.120.0, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.142.12-099, server: 104.17.142.12, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.133.85-100, server: 162.159.133.85, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.207-101, server: kyree.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.67.69.129-102, server: www.whatismyip.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.21.112.1-103, server: ip.gs, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.21.88.70-104, server: www.ddwhm.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.207-101, server: kyree.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.13.23-102, server: www.whatismyip.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.21.16.1-103, server: ip.gs, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.67.173.165-104, server: www.ddwhm.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.129.67-105, server: 162.159.129.67, port: 8443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.199-106, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.199-106, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.25.254.4-107, server: 104.25.254.4, port: 2087, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.188-108, server: huxley.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.205-109, server: benedict.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.188-108, server: huxley.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.205-109, server: benedict.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.44.135-110, server: otto.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.169-111, server: braden.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.169-112, server: braden.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.169-111, server: braden.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.169-112, server: braden.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.120.0-113, server: 172.67.120.0, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.173-114, server: ashton.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.173-114, server: ashton.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.129.11-115, server: 162.159.129.11, port: 2053, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.21.112.1-116, server: www.ipget.net, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.21.96.1-116, server: www.ipget.net, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.21.64.1-117, server: ip.gs, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.110-118, server: wilson.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.155-119, server: decker.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.110-118, server: wilson.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.155-119, server: decker.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.106.26-120, server: 172.67.106.26, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: dt.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.243.218-121, server: 172.67.243.218, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: tx.vs2024.dpdns.org, skip-cert-verify: true}
 - {name: 🇮🇷IR-37.152.181.119-122, server: 37.152.181.119, port: 56104, type: vmess, uuid: efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 37.152.181.119}}
@@ -141,14 +141,14 @@ proxies:
 - {name: 🇭🇰HK-47.76.28.43-139, server: 47.76.28.43, port: 34833, type: vmess, uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.76.28.43}}
 - {name: 🇨🇳CN-120.233.128.98-140, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
 - {name: 🇹🇼TW-118.194.253.15-141, server: 118.194.253.15, port: 5663, type: vmess, uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 118.194.253.15}}
-- {name: 🇨🇳CN-183.240.211.96-142, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-142, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇭🇰HK-43.226.17.11-143, server: 43.226.17.11, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fhvehrabivnnp%3Bhost%3Dkr6v1.dashengjs.net%3Btls", type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
 - {name: 🇯🇵JP-43.206.224.12-144, server: 43.206.224.12, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
 - {name: 🇯🇵JP-47.74.43.182-145, server: 47.74.43.182, port: 47628, type: vmess, uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.74.43.182}}
 - {name: 🇨🇳CN-203.156.253.12-146, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-111.26.109.79-147, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
 - {name: 🇨🇳CN-163.177.46.167-148, server: nstku8v.ns.p36958.xyz, port: 3551, type: ss, cipher: chacha20-ietf-poly1305, password: zcaarradsfasgfdcxx}
-- {name: 🇨🇳CN-183.240.211.96-149, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-149, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇨🇳CN-111.26.109.79-150, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
 - {name: 🇺🇸US-38.11.18.221-151, server: 38.11.18.221, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /path/262029062315, tls: true, ws-headers: {Host: www.47720602.xyz}}
 - {name: 🇻🇳VN-103.163.218.2-152, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -160,21 +160,21 @@ proxies:
 - {name: 🇰🇷KR-125.141.31.72-158, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: "qwerREWQ@@"}
 - {name: 🇨🇳CN-183.238.50.20-159, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
 - {name: 🇩🇪DE-5.39.249.119-160, server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, skip-cert-verify: true, network: grpc, ws-path: vmess-grpc, tls: true, ws-headers: {Host: de.vmess.comnpmjs.com}}
-- {name: 🇭🇰HK-1.65.196.52-161, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
-- {name: 🇨🇳CN-157.148.96.94-162, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: true}
-- {name: 🇨🇳CN-157.148.96.94-163, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+- {name: 🇭🇰HK-1.65.204.117-161, server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
+- {name: 🇨🇳CN-157.148.96.92-162, server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: true}
+- {name: 🇨🇳CN-157.148.96.89-163, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
 - {name: 🇸🇬SG-54.169.93.111-164, server: 54.169.93.111, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
 - {name: 🇨🇳CN-111.26.109.79-165, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: baidu.com}}
 - {name: 🇭🇰HK-121.127.231.200-166, server: 121.127.231.200, port: 995, type: ss, cipher: aes-256-gcm, password: d2bcd45faee2}
 - {name: 🇭🇰HK-43.247.135.170-167, server: 43.247.135.170, port: 46210, type: vmess, uuid: d1eca706-1aae-42d3-bab0-69995d7b023d, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 43.247.135.170}}
 - {name: 🇨🇳CN-120.233.128.98-168, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
-- {name: 🇨🇳CN-183.240.211.96-169, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-169, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇭🇰HK-43.226.17.11-170, server: 43.226.17.11, port: 995, type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
 - {name: 🇯🇵JP-43.206.224.12-171, server: 43.206.224.12, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
 - {name: 🇨🇳CN-203.156.253.12-172, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-111.26.109.79-173, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /oooo, tls: false, ws-headers: {Host: ocbc.com}}
 - {name: 🇨🇳CN-163.177.46.167-174, server: nstku8v.ns.p36958.xyz, port: 3551, type: ss, cipher: chacha20-ietf-poly1305, password: zcaarradsfasgfdcxx}
-- {name: 🇨🇳CN-183.240.211.96-175, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-175, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇻🇳VN-103.163.218.2-176, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: 🇺🇸US-38.11.18.221-177, server: 38.11.18.221, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /path/262029062315, tls: true, ws-headers: {Host: www.47720602.xyz}}
 - {name: 🇸🇬SG-54.169.93.111-178, server: 54.169.93.111, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw}
@@ -186,7 +186,7 @@ proxies:
 - {name: 🇯🇵JP-47.74.43.182-184, server: 47.74.43.182, port: 47628, type: vmess, uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815, alterId: 0, cipher: auto, skip-cert-verify: true, network: kcp, ws-path: /, tls: false, ws-headers: {Host: 47.74.43.182}}
 - {name: 🇨🇳CN-163.177.46.167-185, server: nstku8v.ns.p36958.xyz, port: 3551, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6Y2FhcnJhZHNmYXNnZmRjeHg}
 - {name: 🇻🇳VN-103.163.218.2-186, server: 103.163.218.2, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
-- {name: 🇭🇰HK-43.226.17.11-187, server: 43.226.17.11, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fhvehrabivnnp%3Bhost%3Dkr6v1.dashengjs.net%3Btls", type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
-- {name: 🇨🇳CN-183.240.211.96-188, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506212021989-5pgsEe2BPt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
-- {name: 🇭🇰HK-121.127.231.200-189, server: 121.127.231.200, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fmupbpzjvwhcm%3Bhost%3Dhkxwv1-5.dsjsapi.com%3Btls", type: ss, cipher: aes-256-gcm, password: d2bcd45faee2}
-- {name: 🇨🇳CN-183.240.211.96-190, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506212021989-5pgsEe2BPt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-187, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-163.177.45.154-188, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506261935105-QKggt7Zpjp.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇭🇰HK-43.226.17.11-189, server: 43.226.17.11, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fhvehrabivnnp%3Bhost%3Dkr6v1.dashengjs.net%3Btls", type: ss, cipher: aes-256-gcm, password: fbf9b0db0136}
+- {name: 🇭🇰HK-121.127.231.200-190, server: 121.127.231.200, port: "995/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fmupbpzjvwhcm%3Bhost%3Dhkxwv1-5.dsjsapi.com%3Btls", type: ss, cipher: aes-256-gcm, password: d2bcd45faee2}
