@@ -13,7 +13,7 @@ proxies:
 - {name: 🏁RELAY-104.21.96.1-011, server: 104.21.96.1, port: 8443, type: vmess, uuid: f10598e2-c606-4945-bfde-e5730756a2dd, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: us01.sh-cloudflare.sbs}}
 - {name: 🏁RELAY-104.21.20.162-012, server: 104.21.20.162, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /horsen, tls: true, ws-headers: {Host: orvps2.horsenma.net}}
 - {name: 🇭🇰HK-155.117.228.70-013, server: 155.117.228.70, port: 26193, type: trojan, password: 7367d04e-4c59-4dff-a50e-12e730a09891, skip-cert-verify: true}
-- {name: 🏁RELAY-172.67.193.50-014, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /horsen, tls: true, ws-headers: {Host: orvps2.horsenma.net}}
+- {name: 🏁RELAY-104.21.20.162-014, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /horsen, tls: true, ws-headers: {Host: orvps2.horsenma.net}}
 - {name: 🏁RELAY-172.67.197.2-015, server: aazxsdE.003330333.XYz, port: 443, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /SXjq8YlnGNBlbnEsM, tls: true, ws-headers: {Host: aazxsdE.003330333.XYz}}
 - {name: 🇦🇶NOWHERE-0.0.0.0-016, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /634c5c4f9782, tls: true, ws-headers: {Host: centos7}}
 - {name: 🇸🇰SK-156.146.40.194-017, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -43,7 +43,7 @@ proxies:
 - {name: 🇨🇳CN-36.151.192.59-041, server: 36.151.192.59, port: 16158, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-36.151.192.26-042, server: 36.151.192.26, port: 32765, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇸🇬SG-128.199.236.104-043, server: 128.199.236.104, port: 57384, type: ss, cipher: chacha20-ietf-poly1305, password: wcI8DZe0eXSS3upop1QjVB}
-- {name: 🏁RELAY-141.101.121.164-044, server: 1750158741.tencentapp.cn, port: 443, type: vmess, uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: free1.chiikawanetworkcfjiasucdn.us.kg}}
+- {name: 🏁RELAY-141.101.120.18-044, server: 1750158741.tencentapp.cn, port: 443, type: vmess, uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: free1.chiikawanetworkcfjiasucdn.us.kg}}
 - {name: 🇨🇳CN-113.99.143.13-045, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇨🇳CN-36.151.192.26-046, server: 36.151.192.26, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-36.151.192.26-047, server: 36.151.192.26, port: 34719, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
@@ -60,41 +60,41 @@ proxies:
 - {name: 🇷🇺RU-45.67.215.95-058, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, ws-path: "h=%2F", skip-cert-verify: true}
 - {name: 🇺🇸US-216.24.57.30-059, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, ws-path: "h=%2F", skip-cert-verify: true}
 - {name: 🇺🇸US-198.62.62.67-060, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, ws-path: "h=%2F", skip-cert-verify: true}
-- {name: 🇭🇰HK-103.103.245.158-061, server: 103.103.245.158, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fcauejypbltqt%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls", type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
-- {name: 🇨🇳CN-113.99.143.13-062, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
-- {name: 🇯🇵JP-137.220.191.40-063, server: 137.220.191.40, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fdchlbvrbbotc%3Bhost%3Djp7v1.lingjfjkm002.com%3Btls", type: ss, cipher: aes-256-gcm, password: 823e135ed103}
-- {name: 🇨🇳CN-113.99.143.13-064, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇯🇵JP-137.220.191.40-061, server: 137.220.191.40, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fdchlbvrbbotc%3Bhost%3Djp7v1.lingjfjkm002.com%3Btls", type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+- {name: 🇭🇰HK-103.103.245.158-062, server: 103.103.245.158, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fcauejypbltqt%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls", type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
+- {name: 🇨🇳CN-113.99.143.13-063, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-113.99.143.13-064, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🏁RELAY-104.17.71.31-065, server: 104.17.71.31, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.71.31-066, server: 104.17.71.31, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.68.85-067, server: 104.17.68.85, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.128.1-068, server: 104.17.128.1, port: 2096, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.68.85-069, server: 104.17.68.85, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.17.128.1-070, server: 104.17.128.1, port: 2096, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.83-071, server: bowen.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.135-072, server: otto.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-172.64.35.135-073, server: otto.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.83-071, server: bowen.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.135-072, server: otto.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.135-073, server: otto.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.44.83-074, server: bowen.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.36.104-075, server: 162.159.36.104, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.173.165-076, server: www.ddwhm.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.21.88.70-077, server: www.ddwhm.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.176-078, server: nikon.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.110-079, server: wilson.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.67.173.165-077, server: www.ddwhm.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.176-078, server: nikon.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-172.64.35.110-079, server: wilson.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🇦🇶NOWHERE-0.0.0.0-080, server: 103.160.204.59, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.75.172-081, server: ip.sb, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.36.104-082, server: 162.159.36.104, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.30.171-083, server: icook.tw, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.26.12.31-084, server: ip.sb, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.26.13.31-084, server: ip.sb, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-23.227.38.33-085, server: shopify.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.64.35.176-086, server: nikon.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-104.19.222.79-087, server: whatismyipaddress.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.243.218-088, server: 172.67.243.218, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-108.162.195.161-089, server: sullivan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-162.159.44.161-089, server: sullivan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-23.227.38.33-090, server: shopify.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.30.171-091, server: icook.tw, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.129.67-092, server: 162.159.129.67, port: 8443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.110.232-093, server: 172.67.110.232, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: ci.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-104.19.223.79-094, server: whatismyipaddress.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
-- {name: 🏁RELAY-162.159.44.161-095, server: sullivan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-104.19.222.79-094, server: whatismyipaddress.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
+- {name: 🏁RELAY-108.162.195.161-095, server: sullivan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.110.232-096, server: 172.67.110.232, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-172.67.243.218-097, server: 172.67.243.218, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
 - {name: 🏁RELAY-162.159.129.67-098, server: 162.159.129.67, port: 8443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: si.ylka.dpdns.org, skip-cert-verify: true}
@@ -164,7 +164,7 @@ proxies:
 - {name: 🇨🇳CN-36.151.192.59-162, server: 36.151.192.59, port: 16158, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-36.151.192.26-163, server: 36.151.192.26, port: 32765, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇸🇬SG-128.199.236.104-164, server: 128.199.236.104, port: 57384, type: ss, cipher: chacha20-ietf-poly1305, password: wcI8DZe0eXSS3upop1QjVB}
-- {name: 🏁RELAY-141.101.121.164-165, server: 1750158741.tencentapp.cn, port: 443, type: vmess, uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: free1.chiikawanetworkcfjiasucdn.us.kg}}
+- {name: 🏁RELAY-141.101.120.18-165, server: 1750158741.tencentapp.cn, port: 443, type: vmess, uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: free1.chiikawanetworkcfjiasucdn.us.kg}}
 - {name: 🇨🇳CN-113.99.143.13-166, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇨🇳CN-36.151.192.26-167, server: 36.151.192.26, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-36.151.192.26-168, server: 36.151.192.26, port: 34719, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
@@ -196,7 +196,7 @@ proxies:
 - {name: 🇨🇳CN-36.151.192.59-194, server: 36.151.192.59, port: 16158, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-36.151.192.26-195, server: 36.151.192.26, port: 32765, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇸🇬SG-128.199.236.104-196, server: 128.199.236.104, port: 57384, type: ss, cipher: chacha20-ietf-poly1305, password: wcI8DZe0eXSS3upop1QjVB}
-- {name: 🏁RELAY-141.101.121.164-197, server: 1750158741.tencentapp.cn, port: 443, type: vmess, uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: free1.chiikawanetworkcfjiasucdn.us.kg}}
+- {name: 🏁RELAY-141.101.120.18-197, server: 1750158741.tencentapp.cn, port: 443, type: vmess, uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: free1.chiikawanetworkcfjiasucdn.us.kg}}
 - {name: 🇨🇳CN-113.99.143.13-198, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
 - {name: 🇨🇳CN-36.151.192.26-199, server: 36.151.192.26, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 - {name: 🇨🇳CN-36.151.192.26-200, server: 36.151.192.26, port: 34719, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
@@ -213,7 +213,7 @@ proxies:
 - {name: 🇷🇺RU-45.67.215.95-211, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, ws-path: "h=%2F", skip-cert-verify: true}
 - {name: 🇺🇸US-216.24.57.30-212, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, ws-path: "h=%2F", skip-cert-verify: true}
 - {name: 🇺🇸US-198.62.62.67-213, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, ws-path: "h=%2F", skip-cert-verify: true}
-- {name: 🇭🇰HK-103.103.245.158-214, server: 103.103.245.158, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fcauejypbltqt%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls", type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
-- {name: 🇨🇳CN-113.99.143.13-215, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
-- {name: 🇯🇵JP-137.220.191.40-216, server: 137.220.191.40, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fdchlbvrbbotc%3Bhost%3Djp7v1.lingjfjkm002.com%3Btls", type: ss, cipher: aes-256-gcm, password: 823e135ed103}
-- {name: 🇨🇳CN-113.99.143.13-217, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇯🇵JP-137.220.191.40-214, server: 137.220.191.40, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fdchlbvrbbotc%3Bhost%3Djp7v1.lingjfjkm002.com%3Btls", type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+- {name: 🇭🇰HK-103.103.245.158-215, server: 103.103.245.158, port: "636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fcauejypbltqt%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls", type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0}
+- {name: 🇨🇳CN-113.99.143.13-216, server: cn01.efan8867801.xyz, port: "8766/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
+- {name: 🇨🇳CN-113.99.143.13-217, server: cn01.efan8867801.xyz, port: "8774/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507121073737-hhzLtsIxCt.download.microsoft.com", type: ss, cipher: rc4-md5, password: efanccyun}
